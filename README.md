@@ -26,3 +26,10 @@
 - must be a string
 - each element must have its own unique ID
 - the key can be added to the data or we can use the keyExtractor prop
+
+## Images
+### NB//
+- network images must have a height set
+- when sizing images you can use a height and width or you can use a heigt and width or you can use aspect ratio with the height and/or the width
+- be mindful of storage sizes when you are using static images
+- used `` pixabay.com `` website for free images
