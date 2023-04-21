@@ -33,3 +33,6 @@
 - when sizing images you can use a height and width or you can use a heigt and width or you can use aspect ratio with the height and/or the width
 - be mindful of storage sizes when you are using static images
 - used `` pixabay.com `` website for free images
+
+## ImageBackground
+- A common feature request from developers familiar with the web is background-image. To handle this use case, you can use the ``` <ImageBackground> ``` component, which has the same props as ``` <Image> ```, and add whatever children to it you would like to layer on top of it.
