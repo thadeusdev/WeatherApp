@@ -43,3 +43,8 @@
 - they are used to pass data from parent to child
 - we can use props to customize our components
 - promotes componet reusability
+
+### NB//
+- props are immutable so they can't be changed once the component is created
+- we use unidirrectional data flow to pass the props from the parent to the child
+- unidirectional data flow means the data can only move in one dirrection
