@@ -48,3 +48,23 @@
 - props are immutable so they can't be changed once the component is created
 - we use unidirrectional data flow to pass the props from the parent to the child
 - unidirectional data flow means the data can only move in one dirrection
+
+## React Native Navigation
+- is a react native library used to implement navigation between screens
+```
+npm install @react-navigation/native
+```
+
+### NB//
+- to get us working and our app running since we use expo run 
+```
+npx expo install react-native-screens react-native-safe-area-context
+```
+## Setting tabs
+
+### for this project we use bottom tabs
+```
+npm install @react-navigation/bottom-tabs
+```
+
+## Styling our Tabs
