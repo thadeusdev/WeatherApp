@@ -68,3 +68,9 @@ npm install @react-navigation/bottom-tabs
 ```
 
 ## Styling our Tabs
+- colors and icons
+
+## Dynamic
+### State
+- State is and object that contains information about a component that we want to track.
+- In the object we use key-value pairs
