@@ -137,3 +137,7 @@ plugins: ['module: react-native-dotenv']
 - add our ``.env`` file to ``.gitignore``
 
 ## Fetch API
+- using our weather api key
+
+## Building our own hook
+- building your own hooks lets you extract component logic into reusable functions.
