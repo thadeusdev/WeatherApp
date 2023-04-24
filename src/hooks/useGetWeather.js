@@ -38,4 +38,5 @@ export const useGetWeather = () => {
         })();
     }, [lat, lon]);
     return [loading, error, weather]
+    // return [loading, true, []] //=> testing the error screen
 }
