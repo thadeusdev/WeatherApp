@@ -87,3 +87,23 @@ const [isFlooded, setIsFlooded] = useState(false)
 ```
 - the square brackets are using array destructuring.
 - the first value is the piece of state and the second is a function to update the state.
+
+## Stateful and Stateless functions
+| Stateful | Stateless |
+| :-----: | :---------: |
+| For components `with` state | for components `without` state |
+| created with a class | created with a function |
+| 
+
+### Component lifecycle stages
+1. componentDidMount
+2. shouldComponentUpdate
+3. componentWillUnmount
+
+### NB//
+- hooks were introduced in React 16.8
+- hooks mean we no longer have to depend on classes for state and lifecycle methods.
+- hooks are like special functions containing reusable logic
+- every hook starts with the word ``use``
+
+### useEffect
