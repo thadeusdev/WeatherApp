@@ -1,5 +1,97 @@
+
+
 # WeatherApp
 - react-native vector icons
+
+## What is Expo?
+- An external platform to help us build and run our application
+- it is not compulsory to use Expo but it can save a lot of time especially if you are just getting started
+
+## Getting our environment started
+### 1. Using expo
+1. ensure recent version of ``node`` is installed.
+2. install ``expo-cli``
+```
+npm install -g expo-cli
+```
+3. create our project run
+```npx create-expo-app WeatherApp
+```
+4. navigate to our project ``cd WeatherApp`` and run it by typing
+```
+npm start
+```
+5. install client expo from app store or google store
+6. scan the Qcode using camera to run app on your phone. At this point you should see the app running
+
+### 2. Using React Native CLI
+1. you need to have a mac
+2. have ``node`` and ``watchman`` installed
+3. have correct version of ``ruby`` installed
+4. install ``xcode`` from app store
+5. install ``cocoapods`` from ``cocoapods.org``
+
+#### NB
+if you previously installed a global ``react-native-cli`` package, please remove it as it may cause unexpected issues:
+```
+npm uninstall -g react-native-cli @react-native-community/cli
+```
+6. create our project by typing
+```
+npx react-native init WeatherApp
+```
+7. navigate to our project and run by typing the following two command in separate terminals
+```
+npx react-native start
+```
+```
+npx react-native run-ios
+```
+8. you can see our app starts inside the simulator
+
+### 3. Using Android Studio
+1. make sure ``android studio`` is downloaded and installed
+2. set up emulator: ``open android studio`` > ``more actions`` > ``Virtual Device manager`` > ``Create device`` and follow the process to configure device
+3. run the emulator
+4. now we can close android studio and type
+```
+npx react-native run-android
+```
+5. We'll see our app run on emulator
+
+## eslint
+- for working with our project we'll install ``eslint - development dependency``
+```
+npm install eslint --save-dev
+```
+- initialize ``eslint``
+```
+npx eslint --init
+```
+- ``Ok to proceed? (y) y`` > ``To check syntax and find problems`` > ``JavaScript modules (import/export)`` > ``React`` > ``Does your project use TypeScript? No`` > ``Browser`` > ``JavaScript`` > ``Would you like to install them now? Yes`` > ``npm``
+- after this is done we should have a ``.eslintrc,js`` file created
+
+## install react-native-community
+```
+npm install @react-native-community/eslint-config --save-dev
+```
+6. adding the following customized extra rules
+![Display](./assets/extra-rules.png "Optional title")
+
+7. add a script for running ``eslint`` inside ``package.json``:
+```
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint ."     <===//this one
+  },
+```
+8. to run it type:
+```
+npm run lint
+```
 
 ## Whai i have learned
 1. Setting up an app with expo.
