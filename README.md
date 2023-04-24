@@ -97,7 +97,7 @@ const [isFlooded, setIsFlooded] = useState(false)
 
 ### Component lifecycle stages
 1. componentDidMount
-2. shouldComponentUpdate
+2. componentDidUpdate
 3. componentWillUnmount
 
 ### NB//
@@ -107,3 +107,6 @@ const [isFlooded, setIsFlooded] = useState(false)
 - every hook starts with the word ``use``
 
 ### useEffect
+- lets us perform side effects within our function components
+- we can pass in a dependency array which lets you specify what data, when changed, you would like to trigger a re-render
+- we can additionally use a cleanup function to stop any of our side effects before the component unmounts
