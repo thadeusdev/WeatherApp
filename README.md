@@ -123,3 +123,17 @@ const [isFlooded, setIsFlooded] = useState(false)
 ```
 npx expo install expo-location
 ```
+
+### react-native-dotenv
+- used so that we do not expose our keys online
+```
+npm install -D react-native-dotenv
+```
+- add this line of code to ``babel.config.js``
+```
+plugins: ['module: react-native-dotenv']
+```
+- now we can create our ``.env`` file
+- add our ``.env`` file to ``.gitignore``
+
+## Fetch API
