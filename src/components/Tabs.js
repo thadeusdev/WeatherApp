@@ -27,7 +27,7 @@ const Tabs = () => {
             }}
         >
             <Tab.Screen 
-            name={'Current'} 
+            name={'Current'}
             component={CurrentWeather} 
             options={{
                 tabBarIcon: ({focused}) => (

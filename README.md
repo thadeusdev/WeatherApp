@@ -110,3 +110,9 @@ const [isFlooded, setIsFlooded] = useState(false)
 - lets us perform side effects within our function components
 - we can pass in a dependency array which lets you specify what data, when changed, you would like to trigger a re-render
 - we can additionally use a cleanup function to stop any of our side effects before the component unmounts
+
+### adding a Loading state
+- used when data is fetched
+
+#### ActivityIndicator
+- displays a circular loading indicator
