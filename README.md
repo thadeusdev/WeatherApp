@@ -74,3 +74,16 @@ npm install @react-navigation/bottom-tabs
 ### State
 - State is and object that contains information about a component that we want to track.
 - In the object we use key-value pairs
+- Helps us to add, remove and modify things in our component
+- we can trigger Ui updates based on the changes
+- when state changes the omponent re renders
+
+### useState
+- when we use the ``useState`` hook we are setting up some piece of state for our component.
+- to ``useState`` we pass in an initial or default starting value for the piece of state.
+- for the flooded room example we might say the following:
+```
+const [isFlooded, setIsFlooded] = useState(false)
+```
+- the square brackets are using array destructuring.
+- the first value is the piece of state and the second is a function to update the state.
