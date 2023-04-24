@@ -116,3 +116,10 @@ const [isFlooded, setIsFlooded] = useState(false)
 
 #### ActivityIndicator
 - displays a circular loading indicator
+
+## Geolocation
+### Expo Location
+``expo-location`` allows reading geolocation information from the device. your app can poll for the current location or subscribe to location update events.
+```
+npx expo install expo-location
+```
