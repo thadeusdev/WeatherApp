@@ -141,3 +141,9 @@ plugins: ['module: react-native-dotenv']
 
 ## Building our own hook
 - building your own hooks lets you extract component logic into reusable functions.
+
+## moment.js
+- library used to format date & time
+```
+npm install moment --save
+```
