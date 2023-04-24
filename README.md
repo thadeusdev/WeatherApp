@@ -15,7 +15,8 @@
 npm install -g expo-cli
 ```
 3. create our project run
-```npx create-expo-app WeatherApp
+```
+npx create-expo-app WeatherApp
 ```
 4. navigate to our project ``cd WeatherApp`` and run it by typing
 ```
