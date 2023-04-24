@@ -77,7 +77,8 @@ npx eslint --init
 npm install @react-native-community/eslint-config --save-dev
 ```
 6. adding the following customized extra rules
-![Display](./assets/extra-rules.png "Optional title")
+<!-- ![Display](./assets/extra-rules.png "Optional title") -->
+<img src="./assets/extra-rules.png" alt="display" style="width:900px;" />
 
 7. add a script for running ``eslint`` inside ``package.json``:
 ```
@@ -247,14 +248,17 @@ npm install moment --save
 ### TouchableWithoutFeedback
 
 ## App Overview
-### Current Weather
-![Display](./assets/current-screen.png "Optional title")
 
-### Upcoming Weather
-![Display](./assets/upcoming-screen.png "Optional title")
+<div style="display:flex; flex-direction:row; flex-wrap:wrap; gap:10px">
+<!-- ![Display](./assets/current-screen.png "Optional title") -->
+<img src="./assets/current-screen.png" alt="display" style="width:600px;" />
 
-### City
-![Display](./assets/city-screen.png "Optional title")
+<!-- ![Display](./assets/upcoming-screen.png "Optional title") -->
+<img src="./assets/upcoming-screen.png" alt="display" style="width:600px;" />
 
-### Error
-![Display](./assets/error-page.png "Optional title")
+<!-- ![Display](./assets/city-screen.png "Optional title") -->
+<img src="./assets/city-screen.png" alt="display" style="width:600px;" />
+
+<!-- ![Display](./assets/error-page.png "Optional title") -->
+<img src="./assets/error-page.png" alt="display" style="width:600px;" />
+</div>
