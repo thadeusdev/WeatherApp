@@ -262,3 +262,39 @@ npm install moment --save
 <!-- ![Display](./assets/error-page.png "Optional title") -->
 <img src="./assets/error-page.png" alt="display" style="width:600px;" />
 </div>
+
+## expo to apk
+1. install ``eas-cli``
+```
+npm install -g eas-cli
+```
+2. 
+```
+eas build -p android
+```
+3. insert this line of code from `build` up to the whole of `preview3` to ``eas.json``
+```
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
+```
+4. type
+```
+eas build -p android --profile preview
+```
+5. after this it should give a link to download your `apk`
