@@ -297,4 +297,4 @@ eas build -p android
 ```
 eas build -p android --profile preview
 ```
-5. after this it should give a link to download your `apk`
+5. after this it should give a link to download your `apk`.
